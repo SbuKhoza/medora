@@ -1,0 +1,33 @@
+body {
+  background-color: antiquewhite;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.navleft {
+  display: flex;
+  width: 50%;
+  height:100px;
+  background-color: blue;
+}
+
+.navcenter {
+  display: flex;
+  width: 25%;
+  height:100px;
+  background-color: rgb(86, 224, 206);
+}
+
+.navright {
+  display: flex;
+  width: 25%;
+  height:100px;
+  background-color: rgb(137, 193, 230);
+}
+
+.icon {
+  margin-left: ;
+}
