@@ -32,7 +32,7 @@ function App() {
     <div className='left2'>
       <div className='scroll'>
         <p className='mscroll'>Scroll down</p>  
-        <img src='mouse.png' alt='mouse'></img>
+        <img src='mouse.png'></img>
     
       </div>
 
@@ -72,7 +72,7 @@ function App() {
     
     <ul>
       <li><a href='store'>Our Stores</a></li>
-      <li><a href='blog'>Blog</a></li>
+      <li><a href=''>Blog</a></li>
 
         
       </ul>

@@ -32,7 +32,7 @@ function App() {
     <div className='left2'>
       <div className='scroll'>
         <p className='mscroll'>Scroll down</p>  
-        <img src='mouse.png' alt='mouse'></img>
+        <img src='mouse.png' alt=''></img>
     
       </div>
 

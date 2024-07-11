@@ -32,7 +32,7 @@ function App() {
     <div className='left2'>
       <div className='scroll'>
         <p className='mscroll'>Scroll down</p>  
-        <img src='mouse.png' alt='mouse'></img>
+        <img src='mouse.png'></img>
     
       </div>
 
@@ -50,7 +50,7 @@ function App() {
       <div className='uul'>
       <ul>
       <li><a href='about'>About Us</a></li>
-      <li><a href='furniture'>Furniture</a></li>
+      <li><a href='#'>Furniture</a></li>
         
       </ul>
       </div>
@@ -71,8 +71,8 @@ function App() {
     <div className='right'>
     
     <ul>
-      <li><a href='store'>Our Stores</a></li>
-      <li><a href='blog'>Blog</a></li>
+      <li><a href='#'>Our Stores</a></li>
+      <li><a href='#'>Blog</a></li>
 
         
       </ul>

@@ -32,7 +32,7 @@ function App() {
     <div className='left2'>
       <div className='scroll'>
         <p className='mscroll'>Scroll down</p>  
-        <img src='mouse.png' alt='mouse'></img>
+        <img src='mouse.png'></img>
     
       </div>
 
@@ -61,7 +61,7 @@ function App() {
     </div>
 
     <div className='chair2'>
-    <img src='Chair2.jpg' alt='chair' className='chaiir1'></img>
+    <img src='Chair2.jpg' alt='chair' className='chaiir1' alt'chair></img>
 
     </div>
 
