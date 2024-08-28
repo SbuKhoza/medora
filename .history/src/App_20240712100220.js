@@ -49,8 +49,8 @@ function App() {
     <div className='center'>
       <div className='uul'>
       <ul>
-      <li><a href='about'className='ab'>About Us</a></li>
-      <li><a href='furniture'className='ab'>Furniture</a></li>
+      <li><a href='about'>About Us className</a></li>
+      <li><a href='furniture'>Furniture</a></li>
         
       </ul>
       </div>
@@ -71,9 +71,8 @@ function App() {
     <div className='right'>
     
     <ul>
-      <li><a href='store'className='ab'>Our Stores</a></li>
-      <li><a href='blog'className='ab'>Blog</a></li>
-      <div className='logo'></div>
+      <li><a href='store'>Our Stores</a></li>
+      <li><a href='blog'>Blog</a></li>
 
         
       </ul>

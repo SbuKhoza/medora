@@ -72,8 +72,7 @@ function App() {
     
     <ul>
       <li><a href='store'className='ab'>Our Stores</a></li>
-      <li><a href='blog'className='ab'>Blog</a></li>
-      <div className='logo'></div>
+      <li><a href='blog'>Blog</a></li>
 
         
       </ul>
