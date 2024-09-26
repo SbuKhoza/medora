@@ -1,11 +1,18 @@
 import './App.css';
 
 function App() {
+
+  const handleClick = () => {
+    alert('Discover More!');
+    
+
+  };
+
   return (
     <div className='container'>
       <nav>
         <div className='logo'>
-        <img src='logo.png' alt='logo'></img>
+        <h1>Medora</h1>
         </div>
         <ul className="nav-links">
           <li><a href='about' className='ab'>About Us</a></li>
@@ -13,6 +20,9 @@ function App() {
           <li><a href='store' className='ab'>Our Stores</a></li>
           <li><a href='blog' className='ab'>Blog</a></li>
         </ul>
+        <div className='profile'>
+          <img src='user.png' alt='user'></img>
+        </div>
       </nav>
     
     <div className='maincont'>
@@ -26,13 +36,13 @@ function App() {
             <p>Modern high quality and comfortable<br />available in our stores</p>
           </div>
           <div className='btn'>
-            <button id='button'>Discover Now</button>
+            <button id='button'onClick={handleClick}>Discover Now</button>
           </div>
         </div>
         <div className='left2'>
           <div className='scroll'>
             <p className='mscroll'>Scroll down</p>
-            <img src='mouse.png' alt='mouse'></img>
+            <img src='mouse.png' alt='mouse' width={90}></img>
           </div>
           <div className='chair1'>
             <img src='Chaiir1.jpg' alt='chair' className='chaiir1'></img>
